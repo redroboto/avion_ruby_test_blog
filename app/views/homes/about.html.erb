@@ -1,1 +1,26 @@
-<h1>About Page</h1>
+<%= render  'home', user: @current_user %>
+<div class='about-container'>
+<h1>About This Project</h1>
+<div>
+    <h5>So far, i've been able to practice and implement the ff:</h5>
+    <ul class='list-disc'>
+        <li>Used the scaffold to create an MVC for the 'posts' resource</li>
+        <li>Figured out how to add CSS via tailwind</li>
+        <li>Implemented the use of helper functions within app/helper to reduce clutter</li>
+        <li>Implemented the use of a partial for the navbar</li>
+    </ul>
+</div>
+<div>
+    <h5>Stuff I need to figure out:</h5>
+    <ul class='list-disc'>
+        <li>Adding or Removing a column from an existing table. I will probably try to add an 'author' column to 'posts'.</li>
+        <li>Try to practice creating another MVC for an additional resource, maybe a todo list </li>
+        <li>Make the 'guest' name take an input from the current user and use the input to replace 'guest'</li>
+        <li>Use the link_to method in rails on a button instead of just a text</li>
+        <li>Add 'toasts' whenever the user edits, saves, or deletes something instead of just using the text notice</li>
+    </ul>
+</div>
+</div>
+
+
+
